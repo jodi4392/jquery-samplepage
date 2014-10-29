@@ -1,0 +1,689 @@
+@charset "utf-8";
+/* CSS Document */
+/* Global css */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td 
+{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	color: #000;
+}
+
+body 
+{
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #e0dfe4 url(../images/body_bg.png) repeat-x;
+	overflow-y: scroll;
+}
+
+@font-face
+{
+	font-family: Theano Old Style;
+	src: url(./fonts/Theano Old Style.ttf);
+}
+ul, ol, dl 
+{
+	padding: 0;
+	margin: 0;
+}
+h1
+{
+	color: #3b83c5;
+	font-family: "Theano Old Style";
+}
+h2, h3
+{	
+	font-family: "Theano Old Style";
+	color: #3b83c5;
+	font-weight: bold;
+
+}
+h4
+{
+	font:Arial, Helvetica, sans-serif;
+	color: #3b83c5;
+	float: left;
+}
+h5, h6
+{
+	font:Arial, Helvetica, sans-serif;
+	color: #f2ba59;
+	float: left;
+	font-size: xx-small;
+}
+a:link {
+	color: black;
+	text-decoration: underline;
+}
+a:visited
+{
+}
+a:hover, a:active, a:focus
+{
+	text-decoration: none;
+}
+
+/* Menu containers */
+#homespacecontainer
+{
+	width: 1100px;
+	height: 900px;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color: #FFF;
+	/*vertical-align: top;   ie fix???*/
+	/*letter-spacing: normal;*/
+}
+#spacecontainer
+{
+	width: 1100px;
+	height: 900px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color: #FFF;
+}
+/*
+#maincontainer
+{
+	width: 900px;
+	background: white;
+	margin: auto;
+}
+*/
+#verticallogocontainer
+{
+	float: left;
+	width: 190px;
+	height: 900px;			
+	margin-right: 5px;
+	margin-left: 0px;
+}
+#verticallogoblock
+{
+	float: left;
+	width: 195px;
+	height: 67px;
+	background: #050505;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/* social media*/
+#socialmediacontainer
+{
+	margin-left: 190px;
+	width: 910px;
+	height: 67px;
+	background-color: #050505;
+}
+
+#formdiv
+{
+	float: right;
+	width: 350px;
+	height: auto;
+	padding: 5px;
+}
+#socialbuttons
+{
+   width: 210px;
+   height: auto;
+   float: left;
+   /*display: inline;*/
+   padding-top: 10px;
+}
+
+#learnmore
+{
+   text-decoration: none;
+   color: #7c7c7c;
+   float: right;
+   font-family: Arial, Helvetica, sans-serif;
+}
+/*-------- Nav Bar ---------------------*/
+#spacemenudiv
+{
+  padding: 0px;
+  padding-top: 20px;
+}
+
+#topmenu
+{
+   padding: 0; 
+}
+#topmenu li
+{
+   display: inline-block;
+}
+#topmenu li a
+{
+   padding: 10px 27px 10px 27px;
+   text-decoration: none;
+   color: #f2ba59;
+   font: Arial, Helvetica, sans-serif;
+   font-size:12px;
+}
+
+#topmenu li a:hover
+{
+   background: #3b83c5;
+   color: black;
+}
+.menufloatright
+{
+   width: 590px;
+   float: right;
+}
+/*-------------------------------------*/
+#stripes
+{
+	background: url(../images/stripes.png);
+	border: 1px solid #ececec;
+	border-radius: 8px;
+	font-family: "Theano Old Style";
+	color: #3b83c5;
+	font-weight: bold;
+	font-size: x-large;
+	padding: 15px;
+}
+#headlines
+{
+   border: 4px solid #3b83c5;
+}
+#welcomecontainer
+{
+	margin-left: 190px;
+	padding: 0 15px 0 15px;
+	font-family: "Theano Old Style";
+	background: #FFF;
+}
+#scontainer
+{
+	font-family: "Theano Old Style";
+	background: #fff;
+}
+#pcontainer
+{
+	height: 155px;
+}
+#whatwedodiv
+{
+   float: right;
+   display: inline;
+   height: auto;
+   width: 330px;
+   padding: 20px 40px 20px 0px;
+}
+#sdodiv
+{
+   float: left;
+   display: inline;
+   margin-left: 15px;
+   height: auto;
+   width: 330px;
+   padding: 20px 40px 20px 0px;
+}
+ /*smaller containers for details */
+#detailscontainer
+{
+	width: 900px;
+	height: auto;
+}
+
+#pillar
+{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 240px;
+	height: auto;
+	padding: 0 10px 0 10px;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+.t_
+{
+	padding-left: 15px;
+}
+#paperlessdiv
+{
+   float: right;
+   display: inline;
+   height: auto;
+   width: 350px;
+   padding: 20px 40px 20px 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#manintro
+{
+   width: auto;
+   height: 100px;
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#mandiv
+{
+   width: auto;
+   height: 140px;
+   background: url(../images/stripes.png);
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#manicon
+{
+   width: 660px;
+   height: 90px;
+   float: left;
+   padding: 5px;
+}
+#manlisttext
+{
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 10px;
+}
+
+#footerflat
+{
+	width: 1100px;
+	height: auto;
+	margin: auto;
+	background: #000000;
+	font: Arial, Helvetica, sans-serif;
+	color: #f2ba59;
+	/*margin-top: -22px;   To fix whitespaces in chrome*/
+	/*margin-top: 193px;   fix for chrome, messes up ie*/
+}
+#footercontainer
+{
+	width: 1050px;
+	height: 30px;
+	background: #fff;	
+	padding: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#testdarkcontainer
+{
+	width: auto;
+	height: 30px;
+}
+#TESTfootermenubar
+{
+	list-style: none;
+}
+#TESTfootermenubar li
+{
+	display: inline;
+	float: right;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	padding: 7px;
+}
+#TESTfootermenubar a
+{	
+	font-size: 12px;
+	text-decoration: none;
+	color: #f2ba59;
+}
+
+#main 
+{
+	color: #050505;
+	text-align: justify;
+	/*margin: 0 20px 0 20px;*/
+	/*border: 1px solid blue;*/
+}
+
+/* foot menu bar */
+#footermenubar
+{
+   padding: 0;
+}
+
+#menu li
+{
+   display: inline;
+}
+
+#menu li a
+{
+   font-family: Arial;
+   font-size:12px;
+   text-decoration: none;
+   float: right;
+   padding: 5px 5px 5px 5px;
+   background-color: black;
+   color: #f2ba59;
+}
+#menu li a:hover, a:visited
+{
+}
+
+.header 
+{
+	background: #050505;
+}
+.content 
+{
+	padding: 10px 0;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt
+{  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft
+{
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat
+{
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+#textcenter
+{
+	text-align:center;
+}
+#textmargin
+{
+	margin: 10px 10px 10px 10px;
+}
+
+#Im_banner
+{
+	width: 480px;
+	height: 270px;
+	margin-left: 190px;
+    margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	/*padding-top: 13px;*/
+	/*background: url(../images/bg_bottom2.jpg) center no-repeat;*/
+	/*background: url(../images/pix.png);*/
+	background-size:auto;
+	background-color: #FFF;
+}
+.body_text
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	color: black;
+	text-align: left;
+}
+.box_text
+{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;	
+}
+.box_img
+{
+	padding: 10px;
+}
+.alldetailscontainer .detailscontainer #srvcontainer p
+{
+	color: #000;
+}
+#listtext
+{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px 0 0px 10px;
+	font-weight: bold;
+	text-decoration: none;
+	list-style-type: none;
+}
+#menulisttext
+{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+    color: #3b83c5;
+	text-decoration: none;
+	list-style-type: none;
+	cursor: pointer;
+}
+#menulisttext li
+{
+	border-bottom: 1px dashed #ccc;
+	padding: 7px;
+}
+#menulisttext li a
+{
+	text-decoration: none;
+	color: #3b83c5;
+}
+#simplifier_text
+{
+	padding: 0px 35px 0px 35px;
+}
+
+#insidelisttext
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	padding: 0 0 0 40px;
+}
+.featuresbenefitsbox
+{
+	padding 10px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Simplifier tab menu bar*/
+#tabheader 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#tabheader ul
+{
+	padding-left: 10px;
+}
+#tabheader li 
+{
+  float: left;
+  margin: 0;
+  display: inline;
+}
+
+#tabheader a 
+{
+  float: left;
+  position: relative;
+  padding: 0 23px;
+  height: 0; 
+  line-height: 30px;
+  text-decoration: none;
+  color: #fff;
+  border-left: 30px solid;
+  border-bottom: 30px solid #000 ;
+  border-bottom-color: #777\9;
+  border-top-right-radius: 5px;  
+}
+#tabcontent
+{
+	border: 1px solid #3d3d3d;
+	/*border-radius: 5px;*/
+	padding: 20px;
+}
+
+#tabheader a:hover,
+#tabheader a:focus 
+{
+  border-bottom-color: #3b83c5;
+}
+
+#tabheader a:focus 
+{
+  outline: 0;
+}
+
+#tabheader li#current a 
+{
+	border-bottom-color: #3b83c5;
+}
+#tabs a 
+{
+  height: 0; 
+  line-height: 30px;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #3b83c5;	  
+}
+#homespacecontainer #socialmediacontainer #form1 p {
+	color: #fff;
+}
+#jobcontainer
+{
+	margin-left: 190px;
+	width: 800px;
+	height: 800px;
+	padding: 15px 5px 10px 30px;
+}
+#jobfootcontainer
+{
+	width: 700px;
+	height: auto;
+	margin: auto;
+	background: #050505;
+	font: Arial, Helvetica, sans-serif;
+	color: #f2ba59;
+}
+.tblheader
+{
+	background-color: #3b83c5;
+	border-left: 1px solid #fff;
+	padding-left: 5px;
+}
+.tbltitle
+{
+	border-right: 1px solid #3b83c5;
+	border-bottom: 1px solid #3b83c5;
+	padding-left: 5px;
+}
+.tblloc
+{
+	border-bottom: 1px solid #3b83c5;
+	padding-left: 5px;
+}
+.tbltype
+{
+	border-left: 1px solid #3b83c5;
+	border-bottom: 1px solid #3b83c5;
+	padding-left: 5px;
+}
+.tbletext
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: black;
+	margin-left: 10px;
+	padding: 5px;
+}
+.svcimg
+{
+	padding: -20px;
+}
+.srvleftdiv
+{
+	width: 400px;
+	float: left;
+}
+.srvrightdiv
+{
+	width: 675px;
+	height: 500px;
+	float: right;
+}
+.contactleftdiv
+{
+	width: 250px;
+	float: left;
+}
+.contactrightdiv
+{
+	width: 500px;
+	float: right;
+}
+.cleftdiv
+{
+	width: 350px;
+	float: left;
+	padding-top: 50px;
+	padding-left: 280px;
+}
+.crightdiv
+{
+	width: 400px;
+	float: right;
+	padding-top: 100px;
+	padding-right: 150px;
+}
+#contacttext
+{
+	padding-left: 100px;
+	padding-top: 30px;
+}
+#contactblocktext
+{
+	padding-left: 100px;
+	padding-top: 15px;
+}
+.ctopdiv
+{
+    padding-top: 5px;
+	width: 400px;
+	height: 93px;
+	border-top: 1px dashed #ccc;
+}
+.cmiddiv
+{
+	width: 400px;
+	height: 93px;
+	border-top: 1px dashed #ccc;
+	padding-top: 5px;
+	
+}
+.cbotdiv
+{
+	width: 400px;
+	height: 93px;
+	border-top: 1px dashed #ccc;
+	border-bottom: 1px dashed #ccc; 
+	padding-top: 5px;
+}
+#bottomposition
+{
+   position: absolute;
+   margin-top: 200px;
+}
